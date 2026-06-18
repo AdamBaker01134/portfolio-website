@@ -5,11 +5,11 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-col md:flex-row w-full max-w-3xl flex-col items-center justify-between p-8 bg-white dark:bg-black sm:items-start">
         <Image
-          className="rounded-lg mx-4 mb-4 md:mb-0"
+          className="rounded-lg mx-4 mb-4 md:mb-0 w-[360px] h-auto"
           src="/images/profile_photo.jpg"
           alt="Profile photo"
-          width={400}
-          height={500}
+          width={360}
+          height={440}
           priority
         />
         <div className="flex flex-col mx-4">
