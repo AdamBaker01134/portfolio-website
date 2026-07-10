@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="flex flex-col justify-start">
           <div className="flex flex-row items-center m-2">
             <Image
-              className="invert mx-4 w-[30px] h-auto"
+              className="dark:invert mx-4 w-[30px] h-auto"
               src="/icons/email.svg"
               alt="Email icon"
               width={30}
@@ -23,7 +23,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-row items-center m-2">
             <Image
-              className="invert mx-4 w-[30px] h-auto"
+              className="dark:invert mx-4 w-[30px] h-auto"
               src="/icons/linkedin.svg"
               alt="LinkedIn icon"
               width={30}
@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-row items-center m-2">
             <Image
-              className="invert mx-4 w-[30px] h-auto"
+              className="dark:invert mx-4 w-[30px] h-auto"
               src="/icons/github.svg"
               alt="GitHub icon"
               width={30}

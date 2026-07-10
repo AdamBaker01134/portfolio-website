@@ -4,8 +4,18 @@ export default function Education() {
   return (
     <div className="flex flex-col flex-1 items-start bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-col w-full items-center justify-between p-8 md:pb-0 bg-white dark:bg-black sm:items-start">
+        {/* Show primary colour logo in light mode */}
         <Image
-          className="self-center mx-4 w-full md:w-[30vw] h-auto"
+          className="self-center mx-4 w-full md:w-[30vw] h-auto block dark:hidden"
+          src="/images/usask_usask_colour.png"
+          alt="GitHub icon"
+          width={1395}
+          height={313}
+          priority
+        />
+        {/* Show primary reverse-colour logo in dark mode */}
+        <Image
+          className="self-center mx-4 w-full md:w-[30vw] h-auto hidden dark:block"
           src="/images/usask_usask_colour_reverse.png"
           alt="GitHub icon"
           width={1395}
@@ -13,7 +23,7 @@ export default function Education() {
           priority
         />
         <div className="flex flex-col md:flex-row w-full h-fit py-4 md:p-4">
-          <div className="w-full h-full p-4 mt-4 md:mb-4 border border-white rounded-lg">
+          <div className="w-full h-full p-4 mt-4 md:mb-4 border dark:border-white rounded-lg">
             <div className="flex flex-row justify-between mb-4">
               <b>Bachelor&apos;s Degree</b>
               2018-2023
@@ -33,8 +43,8 @@ export default function Education() {
             for my graduate studies and ultimately evolved into my Master&apos;s
             thesis.
           </div>
-          <div className="border border-white self-center w-0 h-[100px] md:w-[100px] md:h-0" />
-          <div className="w-full h-full p-4 mb-4 md:mt-8 border border-white rounded-lg">
+          <div className="border dark:border-white self-center w-0 h-[100px] md:w-[100px] md:h-0" />
+          <div className="w-full h-full p-4 mb-4 md:mt-8 border dark:border-white rounded-lg">
             <div className="flex flex-row justify-between mb-4">
               <b>Master&apos;s Degree</b>
               2023-2025
