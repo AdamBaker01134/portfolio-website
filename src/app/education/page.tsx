@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Education() {
   return (
     <div className="flex flex-col flex-1 items-start bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-col w-full items-center justify-between p-8 bg-white dark:bg-black sm:items-start">
+      <main className="flex flex-col w-full items-center justify-between p-8 md:pb-0 bg-white dark:bg-black sm:items-start">
         <Image
           className="self-center mx-4 w-full md:w-[30vw] h-auto"
           src="/images/usask_usask_colour_reverse.png"
