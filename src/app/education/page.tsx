@@ -7,7 +7,7 @@ export default function Education() {
         {/* Show primary colour logo in light mode */}
         <Image
           className="self-center mx-4 w-full md:w-[30vw] h-auto block dark:hidden"
-          src="/images/usask_usask_colour.png"
+          src="/images/education/usask_usask_colour.png"
           alt="GitHub icon"
           width={1395}
           height={313}
@@ -16,7 +16,7 @@ export default function Education() {
         {/* Show primary reverse-colour logo in dark mode */}
         <Image
           className="self-center mx-4 w-full md:w-[30vw] h-auto hidden dark:block"
-          src="/images/usask_usask_colour_reverse.png"
+          src="/images/education/usask_usask_colour_reverse.png"
           alt="GitHub icon"
           width={1395}
           height={313}

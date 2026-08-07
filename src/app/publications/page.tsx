@@ -27,7 +27,7 @@ export default function Education() {
             <InteractionTechniquesComparingVideoAbstract />
             <Image
               className="w-full md:w-3/5 h-auto m-2"
-              src="/images/gi_activity.jpg"
+              src="/images/publications/gi_activity.jpg"
               alt="Graphics Interface (GI) 2024 boat ride"
               width={4032}
               height={3024}
@@ -55,7 +55,7 @@ export default function Education() {
             <ShadowMarksAbstract />
             <Image
               className="w-full md:w-3/5 h-auto m-2"
-              src="/images/interact_presentation.webp"
+              src="/publications/interact_presentation.webp"
               alt="Interact 2025 presentation photo"
               width={5712}
               height={4284}

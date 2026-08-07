@@ -11,7 +11,7 @@ export default function Navbar() {
   const tabs: Array<Tab> = [
     ["Home", "/"],
     ["Education", "/education"],
-    ["Work Experience", "/experience"],
+    ["Projects", "/projects"],
     ["Publications", "/publications"],
     ["Skills", "/skills"],
     ["Contact", "/contact"],
