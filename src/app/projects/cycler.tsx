@@ -34,7 +34,7 @@ export default function Cycler({ photos }: CyclerProps) {
       {currentPhoto !== null && (
         <>
           <div
-            className="flex justify-center items-center w-8 h-auto bg-white/40 hover:bg-white/20 cursor-pointer rounded-l-lg border-white/20 border"
+            className="flex justify-center items-center w-8 h-auto bg-black/40 dark:bg-white/40 hover:bg-black/20 dark:hover:bg-white/20 cursor-pointer rounded-l-lg border-black/20 dark:border-white/20 border"
             onClick={decrement}
           >
             <svg
@@ -52,7 +52,7 @@ export default function Cycler({ photos }: CyclerProps) {
               />
             </svg>
           </div>
-          <div className="flex justify-center items-center w-full md:h-[50vh] border-white/20 border p-2">
+          <div className="flex justify-center items-center w-full md:h-[50vh] border-black/20 dark:border-white/20 border p-2">
             <Image
               className="w-auto h-full"
               src={currentPhoto.path}
@@ -63,7 +63,7 @@ export default function Cycler({ photos }: CyclerProps) {
             />
           </div>
           <div
-            className="flex justify-center items-center w-8 h-auto bg-white/40 hover:bg-white/20 cursor-pointer rounded-r-lg border-white/20 border"
+            className="flex justify-center items-center w-8 h-auto bg-black/40 dark:bg-white/40 hover:bg-black/20 dark:hover:bg-white/20 cursor-pointer rounded-r-lg border-black/20 dark:border-white/20 border"
             onClick={incremenet}
           >
             <svg
