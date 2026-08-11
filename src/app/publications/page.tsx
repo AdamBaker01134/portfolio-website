@@ -55,7 +55,7 @@ export default function Education() {
             <ShadowMarksAbstract />
             <Image
               className="w-full md:w-3/5 h-auto m-2"
-              src="/publications/interact_presentation.webp"
+              src="/images/publications/interact_presentation.webp"
               alt="Interact 2025 presentation photo"
               width={5712}
               height={4284}
