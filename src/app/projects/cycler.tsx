@@ -68,10 +68,10 @@ export default function Cycler({ photos }: CyclerProps) {
     }
 
     const orientationApi = screen.orientation as ScreenOrientation & {
-      lock?: (orientation: OrientationLockType) => Promise<void>;
+      lock?: (orientation: "landscape" | "portrait" | "any") => Promise<void>;
     };
 
-    if (orientationApi.lock) {
+    if (typeof orientationApi.lock === "function") {
       try {
         await orientationApi.lock("landscape");
       } catch {
